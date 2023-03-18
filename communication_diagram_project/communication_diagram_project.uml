@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SMpsMFUhEeyH5sdpP0I8mA" name="communication_diagram_project">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_SPbTYFUhEeyH5sdpP0I8mA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_SNpxwFUhEeyH5sdpP0I8mA" name="online shopping">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_UK3sYFUhEeyH5sdpP0I8mA" name=":customer" coveredBy="_3dklAFUhEeyH5sdpP0I8mA _EgjTIFUiEeyH5sdpP0I8mA _Szud0FUiEeyH5sdpP0I8mA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_aC7E4FUhEeyH5sdpP0I8mA" name=":ecommece_website" coveredBy="_3dlzIFUhEeyH5sdpP0I8mA _EgjTIVUiEeyH5sdpP0I8mA _Szud0VUiEeyH5sdpP0I8mA _hgxhEFUiEeyH5sdpP0I8mA _qb_voFUiEeyH5sdpP0I8mA _1MbzYFUiEeyH5sdpP0I8mA _6Tz84FUiEeyH5sdpP0I8mA _G0qOUFUjEeyH5sdpP0I8mA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_dTk9UFUhEeyH5sdpP0I8mA" name=": products" coveredBy="_qb_voVUiEeyH5sdpP0I8mA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_gpskkFUhEeyH5sdpP0I8mA" name=": cart" coveredBy="_1McacFUiEeyH5sdpP0I8mA _6T0j8FUiEeyH5sdpP0I8mA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_sFSeIFUhEeyH5sdpP0I8mA" name=":database" coveredBy="_hgyIIFUiEeyH5sdpP0I8mA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_wi4q0FUhEeyH5sdpP0I8mA" name=": order" coveredBy="_G0q1YFUjEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3dklAFUhEeyH5sdpP0I8mA" name="Message7SendEvent" covered="_UK3sYFUhEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3dlzIFUhEeyH5sdpP0I8mA" name="Message7ReceiveEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EgjTIFUiEeyH5sdpP0I8mA" name="Message9SendEvent" covered="_UK3sYFUhEeyH5sdpP0I8mA" message="_EgiFAFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EgjTIVUiEeyH5sdpP0I8mA" name="Message9ReceiveEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_EgiFAFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Szud0FUiEeyH5sdpP0I8mA" name="Message12SendEvent" covered="_UK3sYFUhEeyH5sdpP0I8mA" message="_SzsooFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Szud0VUiEeyH5sdpP0I8mA" name="Message12ReceiveEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_SzsooFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hgxhEFUiEeyH5sdpP0I8mA" name="Message15SendEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_hgwS8FUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hgyIIFUiEeyH5sdpP0I8mA" name="Message15ReceiveEvent" covered="_sFSeIFUhEeyH5sdpP0I8mA" message="_hgwS8FUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qb_voFUiEeyH5sdpP0I8mA" name="Message18SendEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_qb96cFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qb_voVUiEeyH5sdpP0I8mA" name="Message18ReceiveEvent" covered="_dTk9UFUhEeyH5sdpP0I8mA" message="_qb96cFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1MbzYFUiEeyH5sdpP0I8mA" name="Message21SendEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_1MbMUFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1McacFUiEeyH5sdpP0I8mA" name="Message21ReceiveEvent" covered="_gpskkFUhEeyH5sdpP0I8mA" message="_1MbMUFUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6Tz84FUiEeyH5sdpP0I8mA" name="Message24SendEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_6TzV0FUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6T0j8FUiEeyH5sdpP0I8mA" name="Message24ReceiveEvent" covered="_gpskkFUhEeyH5sdpP0I8mA" message="_6TzV0FUiEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G0qOUFUjEeyH5sdpP0I8mA" name="Message27SendEvent" covered="_aC7E4FUhEeyH5sdpP0I8mA" message="_G0pAMFUjEeyH5sdpP0I8mA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G0q1YFUjEeyH5sdpP0I8mA" name="Message27ReceiveEvent" covered="_wi4q0FUhEeyH5sdpP0I8mA" message="_G0pAMFUjEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_EgiFAFUiEeyH5sdpP0I8mA" name="1 * : find_products()" messageSort="asynchCall" receiveEvent="_EgjTIVUiEeyH5sdpP0I8mA" sendEvent="_EgjTIFUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_SzsooFUiEeyH5sdpP0I8mA" name="2 : checkout()" messageSort="asynchCall" receiveEvent="_Szud0VUiEeyH5sdpP0I8mA" sendEvent="_Szud0FUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_hgwS8FUiEeyH5sdpP0I8mA" name="1.1 : search()" messageSort="asynchCall" receiveEvent="_hgyIIFUiEeyH5sdpP0I8mA" sendEvent="_hgxhEFUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_qb96cFUiEeyH5sdpP0I8mA" name="1.2  view_product_details()" messageSort="asynchCall" receiveEvent="_qb_voVUiEeyH5sdpP0I8mA" sendEvent="_qb_voFUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_1MbMUFUiEeyH5sdpP0I8mA" name="1.3 add_to_cart()" messageSort="asynchCall" receiveEvent="_1McacFUiEeyH5sdpP0I8mA" sendEvent="_1MbzYFUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_6TzV0FUiEeyH5sdpP0I8mA" name="2.1 get-products()" messageSort="asynchCall" receiveEvent="_6T0j8FUiEeyH5sdpP0I8mA" sendEvent="_6Tz84FUiEeyH5sdpP0I8mA"/>
+    <message xmi:type="uml:Message" xmi:id="_G0pAMFUjEeyH5sdpP0I8mA" name="2.2 place_order" messageSort="asynchCall" receiveEvent="_G0q1YFUjEeyH5sdpP0I8mA" sendEvent="_G0qOUFUjEeyH5sdpP0I8mA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8sh9MFUhEeyH5sdpP0I8mA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8soD0FUhEeyH5sdpP0I8mA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

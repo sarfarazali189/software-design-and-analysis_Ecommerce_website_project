@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zBw7YFa-EeyZ6NF7Ae1Z4g" name="deployment_diagram_project">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zFp84Fa-EeyZ6NF7Ae1Z4g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_WsAxUFa_EeyZ6NF7Ae1Z4g" name="Database Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ZQ4h0Fa_EeyZ6NF7Ae1Z4g" name="sql database" fileName="sql database"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_9Gy_wFbAEeyZ6NF7Ae1Z4g" name="users"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_AtYE4FbBEeyZ6NF7Ae1Z4g" name="orders"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_D1u88FbBEeyZ6NF7Ae1Z4g" name="inventory"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_ULCM4FbAEeyZ6NF7Ae1Z4g" name="WEB SERVER">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Wug2QFbAEeyZ6NF7Ae1Z4g" name="index.php" fileName="index.php"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_RlbqUFbFEeyZ6NF7Ae1Z4g" name="web site" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_k0lZEFbAEeyZ6NF7Ae1Z4g" name="USER PC">
+    <nestedClassifier xmi:type="uml:Device" xmi:id="_ob-WgFbAEeyZ6NF7Ae1Z4g" name="webbrowser"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_wBFtwFbAEeyZ6NF7Ae1Z4g" name="PORT 80 " memberEnd="_wBTwMFbAEeyZ6NF7Ae1Z4g _wBYBoFbAEeyZ6NF7Ae1Z4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBQs4FbAEeyZ6NF7Ae1Z4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBRT8FbAEeyZ6NF7Ae1Z4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wBTwMFbAEeyZ6NF7Ae1Z4g" name="database server" type="_WsAxUFa_EeyZ6NF7Ae1Z4g" association="_wBFtwFbAEeyZ6NF7Ae1Z4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wBYBoFbAEeyZ6NF7Ae1Z4g" name="user pc" type="_k0lZEFbAEeyZ6NF7Ae1Z4g" association="_wBFtwFbAEeyZ6NF7Ae1Z4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_NYo2kFbBEeyZ6NF7Ae1Z4g" memberEnd="_NYqEsVbBEeyZ6NF7Ae1Z4g _NYrS0FbBEeyZ6NF7Ae1Z4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NYpdoFbBEeyZ6NF7Ae1Z4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NYqEsFbBEeyZ6NF7Ae1Z4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NYqEsVbBEeyZ6NF7Ae1Z4g" name="web server" type="_ULCM4FbAEeyZ6NF7Ae1Z4g" association="_NYo2kFbBEeyZ6NF7Ae1Z4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NYrS0FbBEeyZ6NF7Ae1Z4g" name="user pc" type="_k0lZEFbAEeyZ6NF7Ae1Z4g" association="_NYo2kFbBEeyZ6NF7Ae1Z4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_PYXSoFbBEeyZ6NF7Ae1Z4g" memberEnd="_PYYgwFbBEeyZ6NF7Ae1Z4g _PYZH0FbBEeyZ6NF7Ae1Z4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PYX5sFbBEeyZ6NF7Ae1Z4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PYX5sVbBEeyZ6NF7Ae1Z4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PYYgwFbBEeyZ6NF7Ae1Z4g" name="database server" type="_WsAxUFa_EeyZ6NF7Ae1Z4g" association="_PYXSoFbBEeyZ6NF7Ae1Z4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PYZH0FbBEeyZ6NF7Ae1Z4g" name="web server" type="_ULCM4FbAEeyZ6NF7Ae1Z4g" association="_PYXSoFbBEeyZ6NF7Ae1Z4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_v-2f0FbFEeyZ6NF7Ae1Z4g" name="Appllication Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_2M0d8FbFEeyZ6NF7Ae1Z4g" name="orn.jar" fileName=""/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_7czJ0FbFEeyZ6NF7Ae1Z4g" name="IMS.jar" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_A5sQUFbGEeyZ6NF7Ae1Z4g" name="TCP/IP" memberEnd="_A5s3YVbGEeyZ6NF7Ae1Z4g _A5uFgFbGEeyZ6NF7Ae1Z4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A5sQUVbGEeyZ6NF7Ae1Z4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A5s3YFbGEeyZ6NF7Ae1Z4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5s3YVbGEeyZ6NF7Ae1Z4g" name="database server" type="_WsAxUFa_EeyZ6NF7Ae1Z4g" association="_A5sQUFbGEeyZ6NF7Ae1Z4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5uFgFbGEeyZ6NF7Ae1Z4g" name="appllication server" type="_v-2f0FbFEeyZ6NF7Ae1Z4g" association="_A5sQUFbGEeyZ6NF7Ae1Z4g"/>
+  </packagedElement>
+</uml:Model>

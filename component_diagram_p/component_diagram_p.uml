@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7dhZAFa5Eey5D51WF06HpA" name="component_diagram_p" visibility="private">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7fV98Fa5Eey5D51WF06HpA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_9Ir6UFa5Eey5D51WF06HpA" name="system_database">
+    <packagedElement xmi:type="uml:Component" xmi:id="_QEjwAGDiEeyMx8bwv7rF_A" name="Products Storage">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_xpG1AGDzEeyMx8bwv7rF_A" client="_QEjwAGDiEeyMx8bwv7rF_A" supplier="_uKCGEGDzEeyMx8bwv7rF_A" contract="_uKCGEGDzEeyMx8bwv7rF_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Wst6UGDjEeyMx8bwv7rF_A" name="Transaction History">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qjPToGD1EeyMx8bwv7rF_A" client="_Wst6UGDjEeyMx8bwv7rF_A" supplier="_PsxngGD1EeyMx8bwv7rF_A" contract="_PsxngGD1EeyMx8bwv7rF_A"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_hkvAoFa6Eey5D51WF06HpA" name="Account">
+    <packagedElement xmi:type="uml:Component" xmi:id="_szjCcFa6Eey5D51WF06HpA" name="Seller">
+      <generalization xmi:type="uml:Generalization" xmi:id="_acGDMGDwEeyMx8bwv7rF_A" general="_yabLYFa6Eey5D51WF06HpA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_yabLYFa6Eey5D51WF06HpA" name="User">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_as3NoGDxEeyMx8bwv7rF_A" client="_yabLYFa6Eey5D51WF06HpA" supplier="_Vw2moGDxEeyMx8bwv7rF_A" contract="_Vw2moGDxEeyMx8bwv7rF_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Vj6MQGDwEeyMx8bwv7rF_A" name="Customer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_bVSVAGDwEeyMx8bwv7rF_A" general="_yabLYFa6Eey5D51WF06HpA"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_y_XvQGDxEeyMx8bwv7rF_A" client="_Vj6MQGDwEeyMx8bwv7rF_A" supplier="_rDuHUGDxEeyMx8bwv7rF_A" contract="_rDuHUGDxEeyMx8bwv7rF_A"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_WZS0wGDzEeyMx8bwv7rF_A" client="_Vj6MQGDwEeyMx8bwv7rF_A" supplier="_ML-sMGDzEeyMx8bwv7rF_A" contract="_ML-sMGDzEeyMx8bwv7rF_A"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_49hsAFa6Eey5D51WF06HpA" name="ONLINE_SHOPPING_WEBSTORE">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_M39zAGD0EeyMx8bwv7rF_A" name=""/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_MPZXIGD0EeyMx8bwv7rF_A" name="Products Ordered"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_IShgEFa7Eey5D51WF06HpA" name="Authentication">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_unZe4GDwEeyMx8bwv7rF_A" client="_IShgEFa7Eey5D51WF06HpA" supplier="_QEAf8GDuEeyMx8bwv7rF_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_SwFrIFa7Eey5D51WF06HpA" name="Cart">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gJVWAGD0EeyMx8bwv7rF_A" client="_SwFrIFa7Eey5D51WF06HpA" supplier="_M39zAGD0EeyMx8bwv7rF_A" contract="_M39zAGD0EeyMx8bwv7rF_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_XGzMsFa7Eey5D51WF06HpA" name="Products Search Engine"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ByUF8Fa8Eey5D51WF06HpA" name="registeration ">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_SWrl0GDxEeyMx8bwv7rF_A" client="_ByUF8Fa8Eey5D51WF06HpA" supplier="_GP4zIGDxEeyMx8bwv7rF_A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HMEAIGD0EeyMx8bwv7rF_A" name="Order">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_dP31kGD0EeyMx8bwv7rF_A" client="_HMEAIGD0EeyMx8bwv7rF_A" supplier="_MPZXIGD0EeyMx8bwv7rF_A"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_QEAf8GDuEeyMx8bwv7rF_A" name="Login Info"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_n7KiUGDuEeyMx8bwv7rF_A" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GP4zIGDxEeyMx8bwv7rF_A" name="User Information"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Vw2moGDxEeyMx8bwv7rF_A" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rDuHUGDxEeyMx8bwv7rF_A"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_1GEWAGDxEeyMx8bwv7rF_A" name="Add Product"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_-W95oGDxEeyMx8bwv7rF_A" client="_SwFrIFa7Eey5D51WF06HpA" supplier="_1GEWAGDxEeyMx8bwv7rF_A"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ML-sMGDzEeyMx8bwv7rF_A" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_bTW7AGDzEeyMx8bwv7rF_A" name="Search Text"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lAypoGDzEeyMx8bwv7rF_A" client="_XGzMsFa7Eey5D51WF06HpA" supplier="_bTW7AGDzEeyMx8bwv7rF_A"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uKCGEGDzEeyMx8bwv7rF_A" name=""/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_4iw0cGDzEeyMx8bwv7rF_A" name="Product Info"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_9Rud8GDzEeyMx8bwv7rF_A" client="_SwFrIFa7Eey5D51WF06HpA" supplier="_4iw0cGDzEeyMx8bwv7rF_A"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_PsxngGD1EeyMx8bwv7rF_A" name="Transaction"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_VDhpwGD1EeyMx8bwv7rF_A" name=""/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_YdIC0GD1EeyMx8bwv7rF_A" client="_HMEAIGD0EeyMx8bwv7rF_A" supplier="_VDhpwGD1EeyMx8bwv7rF_A"/>
+</uml:Model>
